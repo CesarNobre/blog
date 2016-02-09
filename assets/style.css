@@ -33,7 +33,15 @@ body{
 	width: 50%;
 	margin-top:40%;
 }
+
 .social-media-links{
 	width: 50%;
 	margin-top: 20px;
+}
+
+.posts{
+	top:10px;
+	padding: 15px;
+	width: 50%;
+	border:1px solid;
 }
