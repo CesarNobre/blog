@@ -19,7 +19,7 @@ body{
 }
 
 .container{
-	background-color: rgb(228, 228, 228);
+	background-color: #CFD8DC;
 	width: 85%;
 	margin-left:15%;
 	position: fixed;
@@ -42,7 +42,7 @@ body{
 }
 
 .posts{
-	background-color: white;
+	background-color: #ECEFF1;
 	margin-top:2%;
 	margin-left: 5%;
 	padding: 15px 15px 0 15px;
@@ -58,10 +58,9 @@ body{
 }
 
 .tag{
-	background-color: #0A53C1;
-    color: white;
     border-radius: 7px;
     padding: 3px;
+    border:1px solid;
 }
 .categories{
 	width: 80px;
@@ -82,15 +81,30 @@ body{
 }
 
 .title{
-	color:#11242c;
 }
 
-.title-aspnet{
-	color:#11242c;
+.aspnet{
+	color:#3F51B5;
 }
 
-.title-tests{
-	color:#142c36;
+.engenharia{
+	color:#2196F3;
+}
+
+.csharp{
+	color:#03A9F4;
+}
+
+.taskrunner{
+	color:#00BCD4;
+}
+
+.tests{
+	color:#009688;
+}
+
+.knockout{
+	color:#FF9800;
 }
 .backend{
     margin: 40px auto 30px auto;
