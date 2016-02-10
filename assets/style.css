@@ -53,14 +53,49 @@ body{
 }
 
 .tags{
-
+	padding: 5px;
+	color:#FF7C26;
 }
 
+.tag{
+	background-color: #0A53C1;
+    color: white;
+    border-radius: 7px;
+    padding: 3px;
+}
 .categories{
-
+	width: 80px;
+	height: 50px;
+	float:left;
+	margin-left: -15px;
+	margin-top: -15px;
 }
-
+.category{
+	width: 80px;
+	height: 50px;
+	background-color: #207088;
+}
 .datetime{
 	width: 100%;
 	text-align: right;
+	font-size: 14px;
+}
+
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-45deg);
+
+/* Firefox */
+-moz-transform: rotate(-45deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
 }
