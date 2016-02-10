@@ -47,7 +47,6 @@ body{
 	margin-left: 5%;
 	padding: 15px 15px 0 15px;
 	width: 280px;
-	border:1px solid;
 	height: auto;
 	display: inline-block;
 }
@@ -82,25 +81,17 @@ body{
 	font-size: 14px;
 }
 
-.rotate {
-
-/* Safari */
--webkit-transform: rotate(-45deg);
-
-/* Firefox */
--moz-transform: rotate(-45deg);
-
-/* IE */
--ms-transform: rotate(-90deg);
-
-/* Opera */
--o-transform: rotate(-90deg);
-
-/* Internet Explorer */
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
+.title{
+	color:#11242c;
 }
 
+.title-aspnet{
+	color:#11242c;
+}
+
+.title-tests{
+	color:#142c36;
+}
 .backend{
     margin: 40px auto 30px auto;
     width: 200px;
