@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "description": "personal blog made by Cesar",
+  "main": "index.js",
+  "authors": [
+    "Cesar Nobre"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/CesarNobre/blog",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.1"
+  }
+}
