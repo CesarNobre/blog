@@ -22,8 +22,9 @@ body{
 	background-color: #CFD8DC;
 	width: 85%;
 	margin-left:15%;
-	position: fixed;
-	height: 100%;
+	position: absolute;
+	height: auto;
+	min-height:100%;
 }
 
 .center{
