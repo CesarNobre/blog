@@ -79,8 +79,11 @@ body{
 	text-align: right;
 	font-size: 14px;
 }
-
+.post-body{
+    font-family: 'Telex', sans-serif;
+}
 .title{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .aspnet{
