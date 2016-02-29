@@ -13,21 +13,22 @@ body{
     background:#0297af url(images/texture.jpg) fixed;
 }
 .sidebar{
-	width:15%;
+	width:200px;
 	height: 100%;
 	color:white;
 	position: fixed;
 	min-width: 150px;
-    background-color: #111;
+    background-color: #423A35;
 }
 
 .container{
 	background-color: #CFD8DC;
-	width: 85%;
-	margin-left:15%;
+	width: 90%;
+	margin-left:200px;
 	position: absolute;
 	height: auto;
 	min-height:100%;
+    padding: 25px;
 }
 
 .center{
@@ -36,25 +37,25 @@ body{
 
 .logo{
 	padding:15px 15px 0 15px;
-	width: 50%;
+	width: 59%;
 	margin-top:40%;
-	font-family: 'Passion One', cursive;
+	font-family: 'Anton', cursive;
 	font-size:45px;
 	text-transform: lowercase;
 }
 .firstname{
 	letter-spacing: 3px;
-	height: 32px;
+	height: 40px;
 
 }
 .lastname{
 	letter-spacing: 1px;
 }
 .social-media-links{
-	width: 70%;
+	width: 65%;
 }
 .social-media-icon{
-	margin-right: 3px;
+	margin-right: 1.2px;
 	font-size: 25px;
     color:white !important;
 }
@@ -117,14 +118,6 @@ body{
 	color:#2196F3;
 }
 
-.csharp{
-	color:#03A9F4;
-}
-
-.taskrunner{
-	color:#00BCD4;
-}
-
 .tests{
 	color:#009688;
 }
@@ -132,6 +125,17 @@ body{
 .knockout{
 	color:#FF9800;
 }
+
+.circular {
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(images/cesar.jpg) no-repeat;
+}
+
 .backend{
     margin: 40px auto 30px auto;
     width: 200px;
