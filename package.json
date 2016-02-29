@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CesarNobre/blog/issues"
   },
-  "homepage": "https://github.com/CesarNobre/blog#readme"
+  "homepage": "https://github.com/CesarNobre/blog#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
