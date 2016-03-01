@@ -18,5 +18,9 @@
   "homepage": "https://github.com/CesarNobre/blog#readme",
   "dependencies": {
     "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-uglify": "^0.11.1"
   }
 }
