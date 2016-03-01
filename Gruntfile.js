@@ -1,15 +1,15 @@
 module.exports = function(grunt) {
 
   cssmin: {
-	  target: {
-	    files: [{
-	      expand: true,
-	      cwd: 'bower_components/animate.css/animate.css',
-	      src: ['*.css'],
-	      dest: 'public/assets/css',
-	      ext: '.min.css'
-	    	}]
-  		}
+  options: {
+    shorthandCompacting: false,
+    roundingPrecision: -1
+  },
+  target: {
+    files: {
+      'public/assets/css/output.css': ['bower_components/animate.css/animate.css']
+	    }
+	  }
 	}
 
   grunt.loadNpmTasks('grunt-contrib-cssmin');
