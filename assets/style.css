@@ -13,7 +13,7 @@ body{
     background:#0297af url(images/texture.jpg) fixed;
 }
 .sidebar{
-	width:200px;
+	width:330px;
 	height: 100%;
 	color:white;
 	position: fixed;
@@ -24,7 +24,7 @@ body{
 .container{
 	background-color: #CFD8DC;
 	width: 90%;
-	margin-left:200px;
+	margin-left:330px;
 	position: absolute;
 	height: auto;
 	min-height:100%;
@@ -41,15 +41,12 @@ body{
 	margin-top:40%;
 	font-family: 'Anton', cursive;
 	font-size:45px;
-	text-transform: lowercase;
 }
 .firstname{
-	letter-spacing: 3px;
-	height: 40px;
-
+    width: 265px;
 }
 .lastname{
-	letter-spacing: 1px;
+    font-size: 24px;
 }
 .social-media-links{
 	width: 65%;
