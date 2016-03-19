@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', function (req, res) {
-	res.render('views/index', { title: 'Hey', message: 'Hello there!'});
+	res.render('index', { title: 'Hey', message: 'Hello there!'});
 });
 
 app.get('/arroz', function (req, res) {
